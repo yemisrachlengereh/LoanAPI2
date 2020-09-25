@@ -1,0 +1,23 @@
+#%RAML 1.0
+baseUri: https://anypoint.mulesoft.com/mocking/api/v1/links/1c7cc83f-2017-4902-8c75-367d87533f4e/ # 
+title: LoanRequest
+
+/getBestLoanQuote:
+  post:
+    body:
+      application/json:
+        example:
+         { "name":"peter",
+           "amount":1000,
+           "duration":"2"
+         }
+/getAllQuote:
+  post:
+    body:
+      application/json:
+        example:
+           { "name":"peter",
+           "amount":1000,
+           "duration":"2"
+         }
+          
